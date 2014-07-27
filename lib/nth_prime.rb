@@ -12,10 +12,9 @@ def nth_prime (number)
         primes_array << next_number_check
       end
       end
-    next_number_check += 1
-    divisor=next_number_check - 1
+    next_number_check += 2
+    divisor=next_number_check/2 
 end
   primes_array.pop()
 end
-
 
